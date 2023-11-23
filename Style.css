@@ -1,3 +1,90 @@
 body{
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+form{
+    width: 600px;
+    border:  2px solid black;
+    padding: 6rem;
+    border-color: black;
+    border-radius: 20px;
+}
+h1{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 18px;
+    padding: 11px;
+    font-weight: 350;
+}
+
+input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+}
+
+button{
+    background-color: black;
+    padding: .5rem;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(161, 155, 155);
+    color: black;
+}
+
+a{
+    background-color: rgb(11, 218, 56);
+    color: white;
+    width: 50%;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+    text-align: center;
+
+}
+a:hover{
+    background-color: rgb(19, 129, 25);
+    color: black;
+}
+
+.error{
+    background-color: rgb(175, 74, 74);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
 }
